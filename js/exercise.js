@@ -101,11 +101,11 @@
  * $(".city").attr("src", "http://lorempixel.com/g/500/400/food");
  */
 
- $('#button3').click(question8);
+	 $('#button3').click(question8);
 
- 	function question8(){
- 		$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
- 	}
+	function question8(){
+		$(".city").attr("src", "http://lorempixel.com/g/500/400/food");
+	}
 
 //The image of the city became an image of food.
 
@@ -115,11 +115,11 @@
  * Bonus: Try to do this with only one jQuery call. $("selector").css({attribute: "value", attribute: "value"});
  */
 
- $('#button3').click(question9);
+	 $('#button3').click(question9);
 
- 	function question9(){
- 		$("p").css({color: "blue", fontFamily: "Georgia"});
- 	}
+	function question9(){
+		$("p").css({color: "blue", fontFamily: "Georgia"});
+	}
 
 
 
